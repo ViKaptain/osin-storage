@@ -4,11 +4,12 @@ package postgres
 import (
 	"database/sql"
 	"fmt"
-	"github.com/RangelReale/osin"
-	"github.com/go-errors/errors"
-	"github.com/ory-am/common/pkg"
 	"log"
 	"time"
+
+	"github.com/RangelReale/osin"
+	"github.com/go-errors/errors"
+	"github.com/vikaptain/common/pkg"
 )
 
 var schemas = []string{`CREATE TABLE IF NOT EXISTS client (
